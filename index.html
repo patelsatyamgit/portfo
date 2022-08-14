@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portFolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/ad207ff326.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header" id="header">
+        <div class="nav">
+            <div class="logo">
+                <h1><span>S</span>ATYAM</h1>
+            </div>
+           <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#Services">Servies</a></li>
+            <li><a href="#mo">contect</a></li>
+            <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+           </ul>   
+           <i class="fa-solid fa-bars" onclick="openmenu()"></i>  
+        </div>
+        <div class="head-text">
+            <p>Java/python <br/>Developer</p>
+            <h1>Hi, I'm <Span>Satyam</Span><br/> patel From Khandwa</h1>
+        </div>
+    </div>
+    <!-- about page -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="profile.jpg" alt="profile">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores eaque ipsa culpa repellat similique sed iste aspernatur, laboriosam delectus sunt sequi explicabo aut ducimus totam odit tempore excepturi nisi repudiandae cupiditate? Aspernatur est cupiditate aperiam. Labore cum repudiandae nam maxime placeat, nesciunt perferendis quae fugit nobis exercitationem consequuntur omnis fugiat odit, tempore atque. Inventore eos, quae adipisci asperiores aliquid totam beatae cum necessitatibus molestiae nam illo enim nihil consequatur expedita, provident odit? Autem voluptatum quis natus porro similique suscipit earum recusandae nobis, cupiditate, hic enim aspernatur officia. Veniam facilis minus consequatur minima illum iusto distinctio beatae. Totam delectus qui deleniti nam, quisquam enim magnam minus, iste quasi quia adipisci odio nemo necessitatibus deserunt maiores, veniam sapiente laborum. Consequuntur nihil, officiis laudantium eligendi adipisci exercitationem eaque rerum veniam reprehenderit officia reiciendis ducimus debitis harum, quaerat praesentium sequi, soluta dignissimos similique magni? Neque, nihil id. Voluptates quam tenetur eveniet asperiores fugiat soluta.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Python</span><br/>I'am pretty Good in python</li>
+                            <li><span>Java</span><br/>Java is my favorite languge</li>
+                            <li><span>Django</span><br/>I have do my backend proramming in Django</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016-2017</span><br/>10th  St. Annes convent school borgaon</li>
+                            <li><span>2018-2019</span><br/>12th St. Annes convent school borgaon</li>
+                            <li><span>2019-2023</span><br/>B-tech Sagar instute of research and technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services  -->
+    <div id="Services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java -Technology</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo sed obcaecati qui consequatur ex quibusdam nulla culpa, incidunt, repellat porro perferendis facere recusandae dolorem, vero vitae voluptatibus vel placeat inventore?</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python -Technology</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo sed obcaecati qui consequatur ex quibusdam nulla culpa, incidunt, repellat porro perferendis facere recusandae dolorem, vero vitae voluptatibus vel placeat inventore?</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>web-design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo sed obcaecati qui consequatur ex quibusdam nulla culpa, incidunt, repellat porro perferendis facere recusandae dolorem, vero vitae voluptatibus vel placeat inventore?</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portFolio -->
+    <div class="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My work</h1>
+            <div class="work-list">
+                <div class="work">
+            <img src="work-1.png" alt="">
+            <div class="layer">
+                <h3>Social media app</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aspernatur aut quo, voluptas ducimus ut?</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aspernatur aut quo, voluptas ducimus ut?</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                        </div>
+                        <div class="work">
+                            <img src="work-3.png" alt="">
+                            <div class="layer">
+                                <h3>Online shopping app</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aspernatur aut quo, voluptas ducimus ut?</p>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- contact -->
+    <div class="contact" id="mo">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sp8982089@gmail.com</p>
+                    <p><i class="fa-solid fa-mobile-screen"></i>8839299068</p>
+                    <div class="so-icon">
+                        <a href="https://www.facebook.com/profile.php?id=100034823600705"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/satyampatel8291/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/satyam-patel-0146b6234/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="SATYAM PATE1 (1).pdf" id="resume" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name " required>
+                        <input type="email" name="Name" placeholder="Your mail" required>
+                        <textarea name="Message" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+                <p>copyright @ Satyam. Made <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName('tab-links');
+        var tabcontents=document.getElementsByClassName('tab-contents');
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove('active-link');
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add('active-tab');
+        }
+    </script>
+    <script>
+        var sidemenus=document.getElementById('sidemenu');
+        function openmenu()
+        {
+            sidemenus.style.right='0';
+        }
+        function closemenu()
+        {
+            sidemenus.style.right='-150px';
+        }
+    </script>
+</body>
+</html>
